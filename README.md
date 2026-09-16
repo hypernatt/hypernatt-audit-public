@@ -1,5 +1,17 @@
 # HyperNatt — public evidence and research archive
 
+<!-- PUBLICATION:BEGIN -->
+## Current engineering activity
+
+Latest committed activity: **2026-09-16T00:07:44Z**.
+[Activity and research records](publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
+
+This public documentation is generated from selected committed evidence.
+The proprietary implementation remains private. Activity is not proof of profitability.
+Current paper deployment and publication health are shown on Proof of Process.
+<!-- PUBLICATION:END -->
+
+
 [Proof of Process](https://hypernatt.com/audit) · [Product documentation](https://github.com/hypernatt/hypernatt) · [Terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal)
 
 <p align="center">
