@@ -3,7 +3,7 @@
 <!-- PUBLICATION:BEGIN -->
 ## Current engineering activity
 
-Latest committed activity: **2026-09-28T22:32:50Z**.
+Latest committed activity: **2026-09-28T22:40:31Z**.
 [Activity and research records](publication/ACTIVITY.md) | [Proof of Process](https://hypernatt.com/audit)
 
 This public documentation is generated from selected committed evidence.
@@ -12,17 +12,7 @@ Current paper deployment and publication health are shown on Proof of Process.
 <!-- PUBLICATION:END -->
 
 
-[Proof of Process](https://hypernatt.com/audit) · [Product documentation](https://github.com/hypernatt/hypernatt) · [Terminal](https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal)
-
-<p align="center">
-  <sub>Research and development by</sub><br />
-  <a href="https://github.com/DIALLOUBE-RESEARCH">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://hypernatt.com/brand/dialloube/logo-horizontal-blanc.svg" />
-      <img src="https://hypernatt.com/brand/dialloube/logo-horizontal-bleu.svg" alt="DIALLOUBE-RESEARCH" height="18" />
-    </picture>
-  </a>
-</p>
+[Proof of Process](https://hypernatt.com/audit) · [Product documentation](https://github.com/DIALLOUBERESEARCH/hypernatt) · [Terminal](https://github.com/DIALLOUBERESEARCH/hypernatt-terminal)
 
 This repository preserves published research notes and distributes selected
 engineering records. Cryptographic hashes allow readers to check integrity;
@@ -44,29 +34,20 @@ The old close-based results were subject to the documented intrabar selection
 bias. Read the original notes and their limitations together; historical
 statistics do not establish a present trading edge.
 
-## Current product transition — 1 October 2026
+## Current product transition — 29 September 2026
 
 The vault is being migrated to **HyperEVM smart contracts and HyperCore**.
 End-to-end capital movement, valuation, withdrawals and engine integration
 remain separate qualification steps. The historical native vault addresses in
 the archive must not be used as instructions for the new deposit flow.
-New deposits are not yet open to public participation.
-
-The replacement mainnet vault has a verified creation receipt, deployed code
-and initial roles. It was created paused. The
-[deployment identities](https://github.com/hypernatt/hypernatt/blob/main/docs/NON_CUSTODIAL_ARCHITECTURE.md#verified-deployment--1-october-2026)
-identify this contract separately from historical deployments. This verification
-does not establish successful native transfers or enable the execution engine.
 
 The closed beta is limited to 100 participants, including the founder.
 NATT exists in the new economic design with a 21 million maximum supply and
-18 decimals. **All NATT issuance and rewards remain disabled throughout beta**, including
-vault trades, swaps and RedotPay top-ups. No NATT credit is reserved from beta
-activity. Their common launch is planned with the public vault, after parameter
-approval, publication and explicit activation.
+18 decimals. **Vault trading rewards remain disabled**; the beta reward pathway
+is swap activity, subject to confirmed settlement and reward availability.
 The former description of HyperNatt as a project without a token is obsolete.
 
-See the [current product overview](https://github.com/hypernatt/hypernatt)
+See the [current product overview](https://github.com/DIALLOUBERESEARCH/hypernatt)
 for the approved fees and feature status, and the
 [official documentation](https://hypernatt.com/docs) for the eight languages.
 
@@ -76,18 +57,6 @@ Follow [the verification guide](docs/VERIFICATION_GUIDE.md) to compare a bundle
 or note with its published digest. Read [SECURITY.md](SECURITY.md) for the
 limits of these checks and responsible disclosure. No independent security
 audit or guaranteed outcome is implied by a successful hash comparison.
-
-## Bitcoin anchor (OpenTimestamps)
-
-Once per UTC day, the published activity snapshot is timestamped with
-[OpenTimestamps](https://opentimestamps.org): only its SHA-256 digest is sent to
-public calendars, which commit it into the Bitcoin blockchain. The files are in
-[publication/proofs](publication/proofs) (`<date>_<sha256>.json` and its `.ots`
-proof; `index.json` lists each proof as pending or confirmed with its block).
-To check one without trusting us, drop both files on opentimestamps.org, or run
-`ots verify <file>.json.ots` with the official client. A valid proof shows that
-this exact snapshot existed no later than the attested Bitcoin block. It does not
-certify the conclusions inside the snapshot.
 
 Research notes and their historical evidence remain preserved. The publication
 process does not export proprietary source code or private research parameters.
